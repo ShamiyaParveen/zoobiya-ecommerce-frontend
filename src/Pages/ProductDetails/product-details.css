@@ -1,0 +1,36 @@
+﻿.product-content { display: flex; flex-wrap: wrap; }
+.Product-single-page { padding: 40px 0; }
+.Product-single-page h2 { font-size: 24px; font-weight: 700; color: #253d4e; line-height: 1.3; margin-bottom: 15px; }
+.single-pro-ques .MuiAccordion-root { border-radius: 6px !important; margin-bottom: 16px; border: 1px solid #e9e9e9; box-shadow: 0 8px 24px rgba(0,0,0,.05); overflow: hidden; }
+.single-pro-ques .MuiAccordion-root::before { display: none; }
+.single-pro-ques .MuiAccordionSummary-root { padding: 6px 20px; }
+.single-pro-ques .MuiAccordionSummary-content span { font-size: 15px; font-weight: 600; color: #222; }
+.single-pro-ques .MuiAccordionSummary-expandIconWrapper.Mui-expanded { transform: rotate(180deg); }
+.single-pro-ques .MuiAccordionDetails-root { padding: 10px 22px; background: #fff; font-size: 14px; color: #555; line-height: 1.7; }
+.single-pro-ques .css-yfrx4k-MuiAccordionSummary-content.Mui-expanded { margin: 0 !important; }
+.single-pro-ques .css-1f1pi2l-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded { min-height: 46px; border-bottom: 1px solid #dedede; }
+.product-tabs-section { border-top: 1px solid #eee; padding-top: 30px; }
+.product-tabs-section .MuiTabs-root { min-height: 45px; }
+.product-tabs-section .MuiTab-root { text-transform: uppercase; font-weight: 600; font-size: 13px; color: #777; padding: 12px 20px; }
+.product-tabs-section .MuiTab-root.Mui-selected { color: #000; }
+.product-tabs-section .MuiTabs-indicator { height: 3px; background: #ec3875; }
+.product-tab-content { padding-top: 20px; }
+.product-tabs-section p { font-size: 14px; line-height: 1.8; color: #555; }
+.add-review-form h4 { font-size: 22px; font-weight: 600; margin-bottom: 10px; }
+.form-note { font-size: 14px; color: #777; margin-bottom: 25px; }
+.add-review-form label { font-weight: 500; margin-bottom: 8px; display: block; }
+.add-review-form label span { color: red; }
+.rating-stars span { cursor: pointer; font-size: 20px; color: #faaf00; margin-right: 5px; }
+.add-review-form .form-control { background: #f6f6f6; border: 1px solid #eee; border-radius: 4px; }
+.review-qa-section { margin-bottom: 40px; }
+.review-heading { font-size: 20px; font-weight: 600; }
+.review-card { background: #fff; border: 1px solid #eee; padding: 20px; border-radius: 8px; }
+.review-avatar img { width: 60px; height: 60px; border-radius: 50%; object-fit: cover; margin-bottom: 8px; }
+.review-avatar h6 { font-size: 14px; font-weight: 600; margin: 0; }
+.review-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+.review-date { font-size: 13px; color: #999; }
+.review-stars svg { color: #faaf00; font-size: 16px; }
+.review-content p { font-size: 14px; line-height: 1.7; color: #555; margin: 0; }
+@media (max-width: 991px) { .product-content { gap: 0; } .product-tabs-section { padding-top: 24px; } }
+@media (max-width: 768px) { .product-tabs-section .MuiTab-root { font-size: 12px; padding: 10px; } }
+@media (max-width: 767px) { .Product-single-page { padding: 24px 0; } .footer-tags.pt-5 { padding-top: 24px !important; } .product-tabs-section .MuiTabs-scroller { overflow-x: auto !important; } .product-tabs-section .MuiTabs-flexContainer { flex-wrap: nowrap; } .single-pro-ques .MuiAccordionSummary-root { padding: 6px 14px; } }

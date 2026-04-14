@@ -1,0 +1,6 @@
+﻿.logowrapperlogin { width: 200px; }
+.signpageui { height: 100vh; padding: 0; }
+::placeholder { color: #aaa; font-size: 14px; }
+input, optgroup, select, textarea { font-size: 14px !important; font-weight: 300 !important; color: #2a2a2a !important; }
+.google-logo { width: 50%; margin-right: 10px; }
+.text-sm { font-size: 14px !important; }

@@ -1,0 +1,15 @@
+﻿.product-gallery { flex: 0 0 45%; max-width: 45%; padding: 30px; background-color: #fff; }
+.main-image-container { position: relative; border: 1px solid #eee; border-radius: 12px; padding: 10px; margin-bottom: 15px; display: flex; align-items: center; justify-content: center; height: 350px; background: #fff; }
+.main-img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.badge-custom { position: absolute; top: 15px; left: 15px; padding: 5px 12px; border-radius: 4px; color: white; font-size: 11px; font-weight: 700; z-index: 2; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+.badge-blue { background-color: #2bbef9; }
+.badge-rec { top: 45px; background-color: #d0265d; }
+.thumbnail-list { display: flex; justify-content: center; gap: 10px; margin-top: 15px; }
+.thumb-item { width: 70px; height: 70px; border: 1px solid #ddd; padding: 5px; cursor: pointer; border-radius: 8px; background: #fff; transition: all 0.2s ease; }
+.thumb-item.active { border-color: #2bbef9; box-shadow: 0 0 0 2px rgba(35, 58, 149, 0.1); }
+.thumb-item img { width: 100%; height: 100%; object-fit: cover; border-radius: 4px; }
+.product-gallery.sticky { position: sticky; top: 50px; align-self: flex-start; z-index: 2; }
+@media (max-width: 991px) { .product-gallery.sticky { position: static; top: auto; } }
+@media (max-width: 768px) { .product-gallery { flex: 0 0 100%; max-width: 100%; padding: 20px; } }
+@media (max-width: 767px) { .main-image-container { height: 260px; } .thumbnail-list { flex-wrap: wrap; justify-content: flex-start; } .thumb-item { width: 60px; height: 60px; } }
+@media (min-width: 768px) and (max-width: 991px) { .main-image-container { height: 320px; } }

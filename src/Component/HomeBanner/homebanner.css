@@ -1,0 +1,42 @@
+﻿.homebannersection {
+  position: relative;
+}
+.home-banner{
+    height:400px !important;
+    object-fit:cover;
+}
+.homebannersection .slick-prev,
+.homebannersection .slick-next {
+  z-index: 5 !important;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.homebannersection .slick-prev:before,
+.homebannersection .slick-next:before {
+  font-size: 24px;
+  color: #fff;
+  opacity: 1;
+}
+.homebannersection .slick-prev {
+  left: 20px !important;
+}
+.homebannersection .slick-next {
+  right: 20px !important;
+}
+@media (max-width: 767px) {
+  .homebannersection .slick-prev,
+  .homebannersection .slick-next {
+    width: 34px;
+    height: 34px;
+  }
+  .homebannersection .slick-prev {
+    left: 10px !important;
+  }
+  .homebannersection .slick-next {
+    right: 10px !important;
+  }
+}

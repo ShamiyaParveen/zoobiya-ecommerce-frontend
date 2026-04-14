@@ -1,0 +1,10 @@
+﻿@media (min-width: 992px) { .sticky-section { position: sticky; top: 90px; align-self: flex-start; z-index: 2; } .sticky-section, .scroll-section { align-self: flex-start; } }
+.scroll-section { padding-bottom: 40px; }
+.discount-banner { background-color: #fff0f5; width: 100%; padding: 25px 0; border-radius: 4px; }
+.promo-text { color: #ea1d5d; font-size: 1.1rem; margin-right: 20px; }
+.promo-highlight { font-weight: 700; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+.coupon-code { color: #ea1d5d; background-color: #ffe5ec; border: 1px dashed #ff8fa3; padding: 8px 30px; border-radius: 50px; font-weight: 600; font-size: 1rem; margin-right: 20px; display: inline-block; }
+.instruction-text { color: #929bb4; font-size: 0.95rem; font-weight: 400; }
+.rounded-imgages { max-width: 250px; }
+@media (max-width: 768px) { .discount-banner .container { flex-direction: column; gap: 15px; text-align: center; } .promo-text, .coupon-code { margin-right: 0; } }
+@media (max-width: 767px) { .rounded-imgages { max-width: 100%; } }

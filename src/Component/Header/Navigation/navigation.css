@@ -1,0 +1,28 @@
+﻿nav { padding-bottom: 14px; border-bottom: 1px solid #dedede; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+.allcategorybtn { background-color: #4EB7DC !important; color: #ffffff !important; font-weight: 600 !important; padding: 10px 15px !important; border-radius: 4px !important; box-shadow: none !important; text-transform: none !important; border: 1px solid #ddd !important; transition: 0.2s all ease-in-out; position: relative; }
+.navpart2 ul { gap: 10px; }
+.navpart2 { display: flex; justify-content: end; align-items: center; }
+.navpart2 ul li { list-style: none; text-transform: uppercase; position: relative; }
+.navpart2 ul li a { text-decoration: none; font-size: 14px; font-weight: 500; color: #E22B80; transition: 0.3s ease; padding: 6px 0; border-radius: 4px; }
+.navpart2 ul li a:hover { color: #4EB7DC; }
+.navpart2 ul li a.active { color: #E22B80; font-weight: 600; }
+.submenu { width: 200px; position: absolute; top: 100%; left: -30px; background-color: #fff; border: 1px solid #dedede; border-top-left-radius: 0 !important; border-top-right-radius: 0 !important; padding: 10px 0 0; border-radius: 4px; z-index: 1000; opacity: 0; visibility: hidden; transform: translateY(10px); transition: all 0.3s ease-in-out; }
+.list-inline-item:hover .submenu { opacity: 1; visibility: inherit; top: 230%; transform: translateY(0); display: block; }
+.submenu ul { list-style: none; padding: 0; margin: 0; }
+.submenu ul li { padding: 8px 18px; }
+.submenu ul li:hover { background-color: #4EB7DC1a; }
+.submenu ul li a { text-decoration: none; color: #333; font-size: 15px; display: block; transition: 0.2s; text-transform: capitalize; font-weight: 400; }
+.submenu ul li a:hover { color: #E22B80; }
+.cartwrapper { position: relative; display: inline-block; }
+.sidebar-menu { position: absolute; top: 105%; left: 0; width: 220px; background: #fff; border-radius: 6px; padding: 10px 0; border: 1px solid #dedede; border-top-left-radius: 0 !important; border-top-right-radius: 0 !important; border-bottom-right-radius: 0 !important; opacity: 0; visibility: hidden; transform: translateY(10px); transition: 0.3s ease-in-out; z-index: 100; min-height: 100% !important; }
+.cartwrapper:hover .sidebar-menu { opacity: 1; visibility: visible; transform: translateY(0); top: 143%; }
+.sidebar-menu ul li { padding: 10px 18px; }
+.sidebar-menu ul li a { text-decoration: none; color: #333; font-size: 15px; display: block; transition: 0.2s; }
+.sidebar-menu ul li:hover { background: #4EB7DC1a; }
+.sidebar-menu ul li a:hover { color: #E22B80; }
+.next-menu { display: flex; align-items: center; justify-content: space-between; }
+.category-submenu { position: absolute; top: 0; left: 100%; width: 220px; background: #fff; border: 1px solid #dedede; border-top: none !important; border-top-left-radius: 0 !important; border-top-right-radius: 0 !important; border-bottom-left-radius: 0 !important; border-radius: 6px; padding: 10px 0; opacity: 0; visibility: hidden; transform: translateY(10px) !important; transition: 0.3s ease-in-out !important; z-index: 1000; min-height: 100%; }
+.next-menu:hover .category-submenu { opacity: 1; visibility: visible; transform: translateY(0); top: -3%; }
+@media (max-width: 991px) { .navpart1, .navpart2 { width: 100%; max-width: 100%; flex: 0 0 100%; } .navpart1 { display: flex; justify-content: center; margin-bottom: 12px; } .navpart2 { justify-content: center; margin-top: 14px; } .navpart2 ul { flex-wrap: nowrap !important; justify-content: flex-start !important; overflow-x: auto; padding-bottom: 6px; white-space: nowrap; width: 100%; scrollbar-width: none; } .navpart2 ul::-webkit-scrollbar { display: none; } .navpart2 ul li { flex: 0 0 auto; } .navpart2 ul li a { display: inline-flex; align-items: center; padding: 8px 12px; background: #fff7fb; border-radius: 999px; } .submenu, .sidebar-menu, .category-submenu { display: none !important; } .cartwrapper:hover .sidebar-menu, .list-inline-item:hover .submenu, .next-menu:hover .category-submenu { opacity: 0; visibility: hidden; transform: translateY(10px); } .allcategorybtn { width: 100%; justify-content: center; } }
+@media (max-width: 768px) { .navpart2 ul { justify-content: center !important; flex-wrap: wrap; gap: 15px; } .navpart2 ul li a { font-size: 14px; } }
+@media (max-width: 767px) { nav { padding-bottom: 14px; } .allcategorybtn { font-size: 14px !important; padding: 10px 12px !important; } }

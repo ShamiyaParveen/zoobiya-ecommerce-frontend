@@ -1,0 +1,24 @@
+﻿.homeproduct { padding: 80px 0; background-color: #ecebeb; }
+.product-slider .slick-list, .category-section .slick-list { margin: 0 -8px; }
+.product-slider .slick-slide, .category-section .slick-slide { padding: 0 8px; height: auto; }
+.product-slider .slick-slide > div, .category-section .slick-slide > div { height: 100%; }
+.product-slider .slick-track, .category-section .slick-track { display: flex; align-items: stretch; }
+.card-focus { width: 100%; background: #fff; border-radius: 8px; position: relative; overflow: hidden; border: 1px solid #dedede; box-shadow: 0 10px 40px -10px rgba(0,0,0,0.05); transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+.focus-actions { position: absolute; top: 30px; right: 10px; display: flex; flex-direction: column; gap: 10px; opacity: 0; transform: translateX(20px); transition: all 0.3s ease; pointer-events: none; }
+.card-focus:hover .focus-actions { opacity: 1; transform: translateX(0); pointer-events: auto; box-shadow: 0 20px 60px -15px rgba(0,0,0,0.1); }
+.focus-image-container { position: relative; overflow: hidden; border-radius: 8px; margin: 10px; height: 250px; }
+.focus-image-container img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+.card-focus:hover .focus-image-container img { transform: scale(1.05); }
+.focus-actions span { width: 35px; height: 35px; background: rgba(255,255,255,0.9); backdrop-filter: blur(4px); border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+.focus-actions span:hover { background-color: #ec3875; color: #fff; }
+.focus-content { padding: 10px 20px 20px; }
+.focus-price-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.focus-price { font-size: 20px; font-weight: 800; color: #111; }
+.focus-rating { font-size: 13px; color: #777; display: flex; gap: 2px; }
+.focus-title { font-size: 16px; font-weight: 500; color: #555; margin-bottom: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.product-card-link { text-decoration: none !important; }
+.focus-stock { font-size: 14px; font-weight: 600; margin-bottom: 8px; display: block; }
+.focus-btn { width: 100%; font-size: 16px; padding: 10px; background: #111; color: #fff; border: none; border-radius: 8px; font-weight: 400; cursor: pointer; opacity: 1; transition: 0.4s ease; }
+.card-focus .discount-badge { position: absolute; top: 10px; left: 10px; background: #4EB7DC; color: #000; padding: 5px 10px; font-size: 10px; font-weight: 600; border-radius: 4px; z-index: 4; }
+@media (max-width: 991px) { .homeproduct { padding: 56px 0; } }
+@media (max-width: 767px) { .product-slider .slick-list, .category-section .slick-list { margin: 0 -4px; } .product-slider .slick-slide, .category-section .slick-slide { padding: 0 4px; } .focus-image-container { height: 220px; } .focus-content { padding: 12px 16px 18px; } .focus-title { white-space: normal; min-height: auto; line-height: 1.5; } .focus-price-row { flex-direction: column; align-items: flex-start; gap: 6px; } }

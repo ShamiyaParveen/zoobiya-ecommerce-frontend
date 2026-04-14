@@ -1,0 +1,7 @@
+﻿.aboutsection { padding-top: 40px; padding-bottom: 40px; }
+.feature-block { margin-bottom: 2.5rem; }
+.feature-desc { font-size: 1rem; color: #555; line-height: 1.5; font-weight: 400; }
+.product-card-container { background: white; border-radius: 12px; padding: 20px; position: relative; }
+.product-image { width: 100%; display: block; }
+@media (max-width: 991px) { .aboutsection { padding-top: 40px !important; padding-bottom: 40px !important; } .feature-block { margin-bottom: 1.5rem; } .feature-desc { font-size: 0.95rem; line-height: 1.75; } .product-card-container { padding: 12px; margin-top: 18px; } }
+@media (max-width: 767px) { .aboutsection .row { row-gap: 18px; } .aboutsection .text-content { padding-right: 12px !important; padding-left: 12px !important; } .feature-desc { font-size: 0.92rem; line-height: 1.8; } }
