@@ -11,13 +11,13 @@ This project is useful for:
 
 Add your deployed link here:
 
-`https://your-live-link.com`
+`https://zoobiya-ecommerce-frontend.vercel.app/`
 
 ## GitHub Repository
 
 Add your repository link here:
 
-`https://github.com/your-username/your-repo-name`
+`https://github.com/ShamiyaParveen/zoobiya-ecommerce-frontend`
 
 ## Features
 
