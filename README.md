@@ -197,7 +197,7 @@ Built a responsive e-commerce frontend using React, Context API, React Router, a
 
 ## Author
 
-Your Name
+Shamiya Ansari
 
 ## License
 
