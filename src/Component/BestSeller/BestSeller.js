@@ -195,7 +195,7 @@ const BestSeller = () => {
         </div>
       </section>
 
-      <section className="mb-0">
+      <section className="mb-0 d-flex justify-content-center align-items-center">
         <img src={banner5} alt="Banner"
         className="img-fluid "/>
       </section>
